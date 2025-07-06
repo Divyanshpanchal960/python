@@ -1,0 +1,10 @@
+#check data is palindrom or not
+data= 'sir'
+s=''
+for var in data:
+  s=var+s
+if data==s:
+    print("palindrome")
+else:
+  print("not palindrome")
+print(s)
